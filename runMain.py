@@ -5,11 +5,11 @@
 
 
 import unittest,os,time
-from CiTest.common.MyHTMLTestReportCN import HTMLTestRunner
-from CiTest.common.EMail import  Email
+from common.MyHTMLTestReportCN import HTMLTestRunner
+from common.EMail import  Email
 
-from CiTest import readConfig as RC
-from CiTest.common.TestLog import MyLog
+from import readConfig as RC
+from common.TestLog import MyLog
 
 class ExecutCase(object):
     '''定义执行用例的类'''
