@@ -13,7 +13,7 @@ class Baidu(unittest.TestCase):
     def setUpClass(cls):
 
         cls.url = 'https://www.hao123.com'
-        cls.driver = webdriver.Firefox(executable_path='F:\cxr\Program Files (x86)\geckodriver')
+        cls.driver = webdriver.Firefox()
         cls.driver.get(cls.url)
         cls.driver.maximize_window()
         cls.driver.implicitly_wait(5)

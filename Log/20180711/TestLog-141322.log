@@ -1,5 +1,0 @@
-2018-07-11 14:13:22,513 - ExecuteCase - INFO - 开始执行用例！
-2018-07-11 14:13:39,772 - ExecuteCase - INFO - 用例执行完毕！
-2018-07-11 14:13:39,772 - ExecuteCase - INFO - 开始执行发送邮件！
-2018-07-11 14:13:54,394 - ExecuteCase - INFO - The test report has send to developer by email.
-2018-07-11 14:13:54,394 - ExecuteCase - INFO - 邮件发送成功！
