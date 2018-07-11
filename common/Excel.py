@@ -8,7 +8,8 @@ import os
 from datetime import datetime
 from openpyxl.reader.excel import load_workbook
 from openpyxl import Workbook
-from CiTest import readConfig as RC
+sys.path.append("..")
+import readConfig as RC
 
 Rc = RC.ReadConfig()
 

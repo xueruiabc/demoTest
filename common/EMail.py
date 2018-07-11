@@ -9,10 +9,11 @@ from email.header import Header
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from CiTest import readConfig as RC
-from CiTest.common.TestLog import MyLog
+sys.path.append("..")
+import readConfig as RC
+from common.TestLog import MyLog
 
-from  selenium import webdriver
+from selenium import webdriver
 
 
 class Email(object):
