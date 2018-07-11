@@ -480,6 +480,7 @@ class _TestResult(TestResult):
         self.result = []
         #增加一个测试通过率 --Findyou
         self.passrate=float(0)
+        self.outputBuffer = io.StringIO()
 
 
     def startTest(self, test):

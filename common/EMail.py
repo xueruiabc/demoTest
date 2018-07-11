@@ -45,7 +45,7 @@ class Email(object):
 
     def get_Result(self, reportFile):
         '获取测试结果'
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
         self.driver.maximize_window()
         ##得到测试报告路径
         self.result_url = "file://%s" % reportFile
