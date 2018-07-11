@@ -9,6 +9,7 @@ from email.header import Header
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+import sys
 sys.path.append("..")
 import readConfig as RC
 from common.TestLog import MyLog

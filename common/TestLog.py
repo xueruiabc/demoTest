@@ -9,6 +9,7 @@ from datetime import datetime
 
 import threading
 
+import sys
 sys.path.append("..")
 import readConfig as RC
 import os
