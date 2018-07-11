@@ -8,7 +8,7 @@ import unittest,os,time
 from common.MyHTMLTestReportCN import HTMLTestRunner
 from common.EMail import  Email
 
-from import readConfig as RC
+import readConfig as RC
 from common.TestLog import MyLog
 
 class ExecutCase(object):
